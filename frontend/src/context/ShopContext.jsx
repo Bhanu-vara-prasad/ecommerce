@@ -4,9 +4,6 @@ import axios from 'axios'
 import { useState } from "react";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
-import { backendUrl } from "../../../admin/src/App";
-
-
 
 export const ShopContext=createContext();
 
